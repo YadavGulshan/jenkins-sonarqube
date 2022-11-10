@@ -22,16 +22,6 @@
     <build>
         <pluginManagement>
             <plugins>
-<pluginManagement>
-    <plugins>
-        ...
-        <plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>sonar-maven-plugin</artifactId>
-            <version>2.2</version>
-        </plugin>
-    </plugins>
-</pluginManagement>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
@@ -60,7 +50,7 @@
             <properties>
                 <!-- Optional URL to server. Default value is http://localhost:9000 -->
                 <sonar.host.url>
-                   https://9000-cs-1018634319659-default.cs-asia-southeast1-yelo.cloudshell.dev/
+                    https://9000-cs-1018634319659-default.cs-asia-southeast1-yelo.cloudshell.dev/
                 </sonar.host.url>
             </properties>
         </profile>
